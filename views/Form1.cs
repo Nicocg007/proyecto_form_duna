@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿using practica_form_duna.models;
+=======
+﻿using practica_form_duna.views;
+>>>>>>> 9a255c0 (make ui)
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,6 +21,7 @@ namespace practica_form_duna
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
@@ -28,4 +33,28 @@ namespace practica_form_duna
 
         }
     }
+=======
+				private void Form1_Load(object sender, EventArgs e)
+				{
+            try
+            {
+                
+            }
+            catch(Exception err)
+            {
+                MessageBox.Show(err.Message);
+            }
+				}
+
+				private void btnAgregar_Click(object sender, EventArgs e)
+				{
+            var formulario = new formulario();
+            this.Close();
+            formulario.Show();
+            
+				}
+
+			
+		}
+>>>>>>> 9a255c0 (make ui)
 }
