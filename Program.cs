@@ -8,7 +8,7 @@ namespace practica_form_duna
 {
     internal static class Program
     {
-        /// <summary>
+        /// <summary> 
         /// Punto de entrada principal para la aplicación.
         /// </summary>
         [STAThread]
