@@ -1,4 +1,5 @@
 ﻿using practica_form_duna.models;
+using practica_form_duna.views;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,15 +18,30 @@ namespace practica_form_duna
         {
             InitializeComponent();
         }
+				private void Form1_Load(object sender, EventArgs e)
+				{
 
-        private void btnAgregar_Click(object sender, EventArgs e)
+				}
+				private void btnAgregar_Click(object sender, EventArgs e)
+        {
+						
+						var formulario = new formulario();
+						formulario.Show();
+        }
+				private void btnEditar_Click(object sender, EventArgs e)
+				{
+
+				}
+				private void btnEliminar_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btnEliminar_Click(object sender, EventArgs e)
-        {
+				private void btnBuscar_Click(object sender, EventArgs e)
+				{
 
-        }
-    }
+				}
+
+				
+		}
 }
