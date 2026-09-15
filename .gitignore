@@ -1,0 +1,45 @@
+# Visual Studio / MSBuild
+[Oo]bj/
+[Bb]in/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de caché y metadatos de Visual Studio
+.vs/
+*.aps
+*.cache
+*.opendb
+*.opensdf
+*.sdf
+*.v11.suo
+*.v12.suo
+*.v14.suo
+*.v15.suo
+*.v16.suo
+*.v17.suo
+
+# Compilación y paquetes NuGet
+packages/
+*.nupkg
+**/packages/*
+!**/packages/repositories.config
+*.nuget.props
+*.nuget.targets
+
+# Archivos de publicación y empaquetado (ClickOnce / InstallShield)
+*.publish.xml
+*.publish.settings
+publish/
+
+# Registros y diagnósticos
+*.log
+*.err
+*.xml
+
+# Resguardo para Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
